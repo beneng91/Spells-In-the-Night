@@ -1246,3 +1246,45 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.11-01.36.09:535][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
 [2024.04.11-01.36.09:544][575]AssetCheck: New page: Asset Save: PlayerCharacter
 [2024.04.11-01.36.09:544][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Testing/PlayerCharacter.PlayerCharacter
+[2024.04.11-01.39.13:721][497]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.04.11-01.39.13:726][497]LogContentBrowser: Creating deferred item: NewWorld
+[2024.04.11-01.39.13:774][499]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.04.11-01.39.17:181][898]LogContentBrowser: Attempting asset rename: NewWorld -> House
+[2024.04.11-01.39.17:186][898]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.39.17:186][898]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-01.39.17:188][898]LogContentBrowser: End creating deferred item NewWorld
+[2024.04.11-01.39.18:449][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.04.11-01.39.21:650][ 46]LogSlate: Window 'Save Content' being destroyed
+[2024.04.11-01.39.21:658][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-01.39.21:711][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prototype/House" FILE="../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Content/Prototype/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-01.39.21:716][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2024.04.11-01.39.21:717][ 46]LogSavePackage: Moving output files for package: /Game/Prototype/House
+[2024.04.11-01.39.21:718][ 46]LogSavePackage: Moving '../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Saved/House0B042C6C48483878AB43FE94D3610ADA.tmp' to '../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Content/Prototype/House.umap'
+[2024.04.11-01.39.21:718][ 46]LogFileHelpers: Saving map 'House' took 0.008
+[2024.04.11-01.39.21:723][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 116 ms)
+[2024.04.11-01.39.21:723][ 46]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Prototype/House.House
+[2024.04.11-01.39.21:724][ 46]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Content/Prototype/House.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.11-01.39.21:724][ 46]LightingResults: New page: Lighting Build
+[2024.04.11-01.39.21:724][ 46]LoadErrors: New page: Loading map: House.umap
+[2024.04.11-01.39.21:733][ 46]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-01.39.21:734][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-01.39.21:734][ 46]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.11-01.39.21:734][ 46]MapCheck: New page: Map Check
+[2024.04.11-01.39.21:734][ 46]LightingResults: New page: Lighting Build
+[2024.04.11-01.39.21:736][ 46]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.11-01.39.21:739][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.04.11-01.39.21:740][ 46]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-01.39.21:740][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-01.39.21:742][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.04.11-01.39.21:746][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.04.11-01.39.21:747][ 46]LogAudio: Display: Audio Device (ID: 1) registered with world 'House'.
+[2024.04.11-01.39.21:747][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.39.21:747][ 46]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-01.39.21:748][ 46]LogAIModule: Creating AISystem for world House
+[2024.04.11-01.39.21:755][ 46]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.11-01.39.21:758][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.04.11-01.39.21:760][ 46]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.11-01.39.21:760][ 46]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.05ms to complete.
+[2024.04.11-01.39.21:762][ 46]AssetCheck: New page: Asset Save: House
+[2024.04.11-01.39.21:762][ 46]LogContentValidation: Display: Validating /Script/Engine.World /Game/Prototype/House.House
+[2024.04.11-01.39.28:936][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
