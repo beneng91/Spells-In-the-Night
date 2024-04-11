@@ -1189,3 +1189,60 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.11-01.29.17:379][983]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
 [2024.04.11-01.29.29:009][346]LogContentBrowser: Attempting asset rename: NewBlueprint -> PlayerCharacter
 [2024.04.11-01.29.29:024][346]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.11-01.34.07:730][125]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.04.11-01.35.58:267][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.35.59:264][563]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.36.00:094][623]LogShaderCompilers: Display: ================================================
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Total job queries 3,683, among them cache hits 6 (0.16%)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Tracking 3,669 distinct input hashes that result in 2,640 distinct outputs (71.95%)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: RAM used: 67.59 MiB of 1.60 GiB budget. Usage: 4.13%
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Shaders Compiled: 3,669
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Jobs assigned 3,673, completed 3,669 (99.89%)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Average time worker was idle: 6.96 s
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Time job spent in pending queue: average 115.54 s, longest 252.03 s
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Job execution time: average 6.90 s, max 22.59 s
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Job life time (pending + execution): average 122.56 s, max 258.80
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Shader code size: average 38.251 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 273.85 s
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Jobs were issued in 447 batches (only local compilation was used), average 8.22 jobs/batch
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Average processing rate: 13.40 jobs/sec
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Total thread time: 2,637.846 s
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Total thread preprocess time: 197.141 s
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Percentage time preprocessing: 7.47%
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Effective parallelization: 9.63 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 8.03 sec, max 14.21 sec, min 2.76 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 7.10 sec, max 8.87 sec, min 3.71 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.90 sec, max 5.43 sec, min 1.45 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 2.29 sec, max 2.29 sec, min 2.29 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 2.28 sec, max 2.80 sec, min 1.87 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.59% of total time (compiled  134 times, average 2.28 sec, max 2.80 sec, min 1.87 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.57% of total time (compiled   96 times, average 1.53 sec, max 2.39 sec, min 1.02 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.75% of total time (compiled   96 times, average 1.30 sec, max 1.92 sec, min 0.34 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.30% of total time (compiled  128 times, average 0.89 sec, max 1.55 sec, min 0.32 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.27% of total time (compiled  128 times, average 0.88 sec, max 1.12 sec, min 0.67 sec)
+[2024.04.11-01.36.00:095][623]LogShaderCompilers: Display: ================================================
+[2024.04.11-01.36.00:403][648]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.36.01:010][711]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.36.01:029][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.PlayerCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.SKEL_PlayerCharacter_C:UserConstructionScript' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.SKEL_PlayerCharacter_C' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.PlayerCharacter_C' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.PlayerCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.PlayerCharacter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:465][575]LogMetaData: Removing '/Game/Testing/PlayerCharacter.PlayerCharacter:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TestFolder/PlayerCharacter.PackageMetaData'
+[2024.04.11-01.36.09:467][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-01.36.09:501][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Testing/PlayerCharacter" FILE="../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Content/Testing/PlayerCharacter.uasset" SILENT=true
+[2024.04.11-01.36.09:504][575]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.003657 seconds
+[2024.04.11-01.36.09:510][575]LogSavePackage: Moving output files for package: /Game/Testing/PlayerCharacter
+[2024.04.11-01.36.09:510][575]LogSavePackage: Moving '../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Saved/PlayerCharacter69A909CA44B37DFB777BA8A21AAD035F.tmp' to '../../../../../Unreal Projects/Spells-In-the-Night/SpellsInTheNight/Content/Testing/PlayerCharacter.uasset'
+[2024.04.11-01.36.09:518][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms
+[2024.04.11-01.36.09:529][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.04.11-01.36.09:532][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.04.11-01.36.09:535][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.04.11-01.36.09:544][575]AssetCheck: New page: Asset Save: PlayerCharacter
+[2024.04.11-01.36.09:544][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Testing/PlayerCharacter.PlayerCharacter
