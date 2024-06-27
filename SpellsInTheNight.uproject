@@ -10,6 +10,21 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "MounteaDialogueSystem",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ea38ae1f87b24807a66fdf4fa65ef521"
+		},
+		{
+			"Name": "DialogueSx",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/401cd4398af24470a14e79637f383d4e"
+		},
+		{
+			"Name": "DialogueTree",
+			"Enabled": true,
+			"MarketplaceURL": "https://com.epicgames.launcher://ue/marketplace/product/af018f2268eb426bad40d8b70e255505/"
 		}
 	]
 }
